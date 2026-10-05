@@ -2,7 +2,7 @@
 
 *notebook entries & working drafts*
 
-a one-page personal site — part portfolio, part notebook margin, part excuse to keep a song on loop.
+a one-page personal site, part portfolio, part notebook margin, part excuse to keep a song on loop.
 
 ---
 
