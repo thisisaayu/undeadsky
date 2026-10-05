@@ -237,7 +237,7 @@ h1 {
 }
 
 .hero-portrait::after {
-  content: "-seravivra-";
+  content: "love";
   position: absolute;
   right: -22px;
   bottom: 44px;
