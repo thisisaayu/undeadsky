@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>iris</title>
+  <meta name="description" content="iris.">
+  <meta name="theme-color" content="#f5f1eb">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Kalam:wght@300;400;700&family=Patrick+Hand&family=JetBrains+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="iris home">iris.</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#profile">profile</a>
+      <a href="#index">index</a>
+      <a href="#signal">signal</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="page-mark" aria-hidden="true">draft 02 / margin copy</div>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="kicker">nineteen / cs / intj</p>
+        <h1 id="hero-title">iris.</h1>
+        <p class="lede">CS student by day, quiet writer by night. Mostly spending my hours untangling code, scribbling notebook drafts, and keeping what feels honest.</p>
+      </div>
+
+      <figure class="hero-portrait">
+        <img src="assets/profile.jpg" alt="Portrait sketch used as Iris's profile picture">
+        <figcaption>profile, but not a pitch</figcaption>
+      </figure>
+    </section>
+
+    <section class="player" aria-label="Music player">
+      <img class="cover" src="assets/album-art.jpg" alt="Album art for faithful">
+      <div class="track">
+        <p class="label">now playing</p>
+        <h2>faithful</h2>
+        <p>sage</p>
+      </div>
+      <button class="play-button" id="playButton" type="button" aria-label="Play faithful">
+        <span class="play-icon" aria-hidden="true"></span>
+      </button>
+      <div class="progress" id="progress" role="slider" tabindex="0" aria-label="Seek faithful" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <span id="progressFill"></span>
+      </div>
+      <div class="time">
+        <span id="currentTime">00:00</span>
+        <span id="duration">00:00</span>
+      </div>
+      <p class="player-state" id="playerState">paused</p>
+    </section>
+
+    <section class="split" id="profile" aria-labelledby="profile-title">
+      <div>
+        <p class="kicker">profile</p>
+        <h2 id="profile-title">Logic builds the system. Words remind me why it matters.</h2>
+      </div>
+      <div class="copy-stack">
+        <p>I study computer science, but I keep coming back to words. In programming, there is beauty when a system just clicks into place; in writing, there is beauty in taking your time to understand something messy.</p>
+        <p>I like manga, atmospheric games, songs that loop too well, and books that stay in your head for weeks. This page is where those quiet interests sit together.</p>
+      </div>
+    </section>
+
+    <section class="gallery" aria-label="Image and poem excerpt">
+      <figure class="wide-image">
+        <img src="assets/muse.jpg" alt="Misty green mountains under a cloud-heavy sky">
+        <figcaption>somewhere above the clouds</figcaption>
+      </figure>
+      <div class="quote-card">
+        <span class="quote-mark" aria-hidden="true">"</span>
+        <p>Love can make a god of man, faith can convince him that he can.</p>
+        <span>from a poem I keep returning to</span>
+      </div>
+    </section>
+
+    <section class="lists" id="index" aria-label="Favorites index">
+      <article>
+        <h3>books / manga</h3>
+        <ul>
+          <li>The Ritual</li>
+          <li>House of Leaves</li>
+          <li>The Fisherman</li>
+          <li>Blame!</li>
+          <li>Wet Moon</li>
+        </ul>
+      </article>
+      <article>
+        <h3>games</h3>
+        <ul>
+          <li>Skyrim</li>
+          <li>Oblivion</li>
+          <li>Noita</li>
+          <li>Terraria</li>
+          <li>Dark Souls III</li>
+        </ul>
+      </article>
+      <article>
+        <h3>songs</h3>
+        <ul>
+          <li>Starvation</li>
+          <li>To Be Human</li>
+          <li>Love Yourz</li>
+          <li>Pride</li>
+          <li>Faithful</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="signal" id="signal" aria-labelledby="signal-title">
+      <p class="kicker">signal</p>
+      <h2 id="signal-title">I love building software that works, but I still write to figure out who I am outside of it.</h2>
+      <p>Code solves problems with precision. Writing gives space to things that can't be solved with an algorithm.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>iris. notebook entries & working drafts.</p>
+    <a href="#top">back to top</a>
+  </footer>
+
+  <audio id="audio" src="assets/faithful.mp3" preload="metadata"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
