@@ -237,7 +237,7 @@ h1 {
 }
 
 .hero-portrait::after {
-  content: "not a pitch";
+  content: "-seravivra-";
   position: absolute;
   right: -22px;
   bottom: 44px;
