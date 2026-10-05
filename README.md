@@ -37,7 +37,7 @@ top to bottom, in the order it reads:
 | --- | --- |
 | **header** | sticky. the `iris.` wordmark, then `profile / index / signal`, three anchor links and nothing more |
 | **hero** | the big name, a one-line lede, and a portrait with a torn-paper border and a `not a pitch` sticker |
-| **player** | *faithful* by sage (me). real audio, real progress bar, click to seek, arrow keys to skip ten seconds |
+| **player** | *faithful* by sage (m. real audio, real progress bar, click to seek, arrow keys to skip ten seconds |
 | **profile** | two short paragraphs. code on one side, words on the other, slightly out of alignment on purpose |
 | **gallery** | one wide photo, one poem excerpt pinned next to it in a taped card |
 | **index** | three columns: books / manga, games, songs. each card is numbered `01`, `02`, `03` |
